@@ -1,0 +1,462 @@
+HTML
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PSB Pondok Pesantren Darul Iman</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .navbar{
+            border-bottom: 3px solid rgb(0, 153, 255);
+        }
+        /*  background navbar jadi warna krim */
+.navbar {
+    background-color: #F5F5DC !important; /* Warna krim */
+}
+
+/*  warna tulisan DARUL IMAN jadi coklat */
+.navbar-brand {
+    color: #8B4513 !important; /* Warna coklat */
+}
+        .navbar {
+    background-color: #F5E6CC; /* Krem */
+}
+
+.navbar-nav .nav-link {
+    color: #7a4017; /* Coklat */
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #dbb077; /* Tan */
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #6d3309;
+    color: white;
+    border-radius: 5px;
+}
+         .hero{
+            height: 500px;
+            background: linear-gradient(oklab(17.189% -0.00156 -0.0005 / 0.5),
+                        rgba(166, 227, 62, 0.5)),
+                        url('c:/Users/acer/Downloads/amalia/2 photos.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: rgba(227, 221, 221, 0.979);
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        section{
+            padding: 80px 0;
+            background-color: #f5f5dc; /* krem */
+        }
+
+        #akademik{
+            padding: 80px 0;
+            background-color: #2cb475; 
+        }
+
+        #galeri{
+            background-color:#2cb475;;
+            padding: 80px 0;
+        }
+
+        #pendaftaran{
+            background-color: #e6dd80;
+            padding: 80px 0;
+        }
+
+        .btn-warning{
+           background-color: #198754 !important;
+           border-color: #198754 !important;
+           color: white !important;
+        }
+
+        #kontak{
+            background-color: #2cb475;
+            padding: 80px 0;
+        }
+
+        footer{
+            background: #f5f598; ;
+            color: rgb(27, 25, 25);
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+     
+    <header>
+
+<!-- MENU NAVIGASI -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            DARUL IMAN
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#beranda">
+                        Beranda
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#profil">
+                        Profil
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#akademik">
+                        Akademik
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#fasilitas">
+                        Fasilitas
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#galeri">
+                        Galeri
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#pendaftaran">
+                        Pendaftaran
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#kontak">
+                        Kontak
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- BERANDA -->
+<section id="beranda" class="hero">
+
+    <div class="container">
+
+        <h1 class="display-4 fw-bold">
+            Pondok Pesantren Darul Iman
+        </h1>
+
+        <p class="lead">
+            Penerimaan Santri Baru Tahun Ajaran 2026/2027
+        </p>
+
+        <button class="btn btn-warning btn-lg"
+                onclick="daftar()">
+            Daftar Sekarang
+        </button>
+
+    </div>
+
+</section>
+
+<!-- PROFIL -->
+<section id="profil">
+
+    <div class="container">
+
+        <h2 class="text-center mb-4">
+            Profil Pesantren
+        </h2>
+
+        <p>
+            Pondok Pesantren Darul Iman merupakan lembaga pendidikan Islam
+            yang berfokus pada pembentukan karakter, ilmu agama,
+            dan ilmu pengetahuan umum Pondok Pesantren Darul Iman hadir sebagai lembaga pendidikan
+            Islam yang berkomitmen mencetak generasi muslim yang cerdas, berkarakter, dan mampu
+            memberikan manfaat bagi masyarakat. Dengan dukungan tenaga pendidik yang profesional
+            serta fasilitas yang memadai, pondok pesantren terus berupaya menjadi pusat pendidikan
+            Islam yang unggul dan terpercaya.
+        </p>
+
+    </div>
+
+   </div>
+
+
+</section>
+
+<!-- AKADEMIK -->
+<section id="akademik">
+
+    <div class="container">
+
+        <h2 class="text-center mb-4">
+            Akademik
+        </h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        MTs (Madrasah Tsanawiyah)
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        MA (Madrasah Aliyah)
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        Tahfidz dan Tahsin Al-Qur'an
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        Bahasa Arab dan Bahasa inggris
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        Kajian Kitab Kuning
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        Pengembangan Kepemimpinan Santri
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FASILITAS -->
+<section id="fasilitas">
+
+    <div class="container">
+
+        <h2 class="text-center mb-4">
+            Fasilitas
+        </h2>
+
+        <ul>
+            <li>Masjid</li>
+            <li>Asrama Putra dan Putri</li>
+            <li>Perpustakaan</li>
+            <li>Laboratorium Komputer</li>
+            <li>Ruang Kelas</li>
+            <li>Aula Serbaguna</li>
+            <li>Lapangan Olahraga</li>
+            <li>Kantin Sehat</li>
+        </ul>
+
+    </div>
+
+</section>
+
+<!-- GALERI -->
+<section id="galeri">
+
+    <div class="container">
+
+        <h2 class="text-center mb-4">
+            Galeri
+        </h2>
+
+        <div class="row">
+
+  <!-- Card 1 -->
+  <div class="col-md-4 mb-4">
+    <div class="card">
+      <img src="c:\Users\acer\Downloads\amalia\6 photos.jpeg" class="card-img-top">
+      <div class="card-body">
+        <p class="card-text">penyambutan abuya pondok pesantren dalam rangka acara perpisahan</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="col-md-4 mb-4">
+    <div class="card">
+      <img src="c:\Users\acer\Downloads\amalia\8 photos.jpeg">
+ <div class="card-body">
+        <p class="card-text">acara perpisahan kelas 12 SMA atau 6 pesantren</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Card 3 -->
+  <div class="col-md-4 mb-4">
+    <div class="card">
+      <img src="c:\Users\acer\Downloads\amalia\4 photos.jpeg" class="card-img-top">
+      <div class="card-body">
+        <p class="card-text">acara liburan pimpinan pondok memberikan arahan</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="col-md-4 mb-4">
+    <div class="card">
+      <img src="c:\Users\acer\Downloads\amalia\9 photos.jpeg">
+      <div class="card-body">
+        <p class="card-text">kegiatan PKM(pelatihan kepemimpinan manajemen) 2025-2026</p>
+      </div>
+    </div>
+  </div>
+
+   <!-- Card 5 -->
+  <div class="col-md-4 mb-4">
+    <div class="card">
+      <img src="c:\Users\acer\Downloads\amalia\10 photos.jpeg">
+      <div class="card-body">
+        <p class="card-text">kegitan pramuka api ungun</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="col-md-4 mb-4">
+    <div class="card">
+      <img src="c:\Users\acer\Downloads\amalia\ALAM.jpeg" class="card-img-top">
+      <div class="card-body">
+        <p class="card-text">suasana malam</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</section>
+
+<!-- PENDAFTARAN -->
+<section id="pendaftaran">
+
+ <div class="container">
+
+        <h2 class="text-center mb-4">
+            Pendaftaran
+        </h2>
+
+        <form>
+
+            <input type="text"
+                   class="form-control mb-3"
+                   placeholder="Nama Lengkap">
+
+            <input type="email"
+                   class="form-control mb-3"
+                   placeholder="Email">
+
+            <input type="tel"
+                   class="form-control mb-3"
+                   placeholder="Nomor WhatsApp">
+
+            <button type="button"
+                    class="btn btn-warning"
+                    onclick="kirimData()">
+
+                Kirim Pendaftaran
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- KONTAK -->
+<section id="kontak">
+
+    <div class="container">
+
+        <h2 class="text-center mb-4">
+            Kontak
+        </h2>
+
+        <p>instagram:@pesantren_daruliman</p>
+        <p>WhatsApp : +62 822-1542-3522</p>
+        <p>Email : ponpes.daruliman91@gmail.com</p>
+        <p>Alamat : Jl.kelapa gading,kec.lawe sumur,kab.aceh tenggara</p>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Pondok Pesantren Darul Iman
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+function daftar(){
+    alert("Selamat Datang di Penerimaan Santri Baru Darul Iman");
+}
+
+function kirimData(){
+    alert("Data pendaftaran berhasil dikirim");
+}
+</script>
+
+</body>
+</html>
